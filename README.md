@@ -11,7 +11,7 @@ Schemas are a way to document your data and help make it more FAIR (Findable, Ac
 
 [Learn what a schema is](what_is_a_schema.md) and how it can apply to your research.
 
-# 3. Write your first Excel schema
+# 3. Write your first schema in Excel
 
 [Following these instructions](create_first_schema.md) you will download the schema template (an Excel file), and based on the dataset you are describing you will enter in minimal schema information in this first iteration.
 
@@ -20,6 +20,7 @@ Schemas are a way to document your data and help make it more FAIR (Findable, Ac
 * You can share the Excel schema file when you share data.
 * If your lab or collaborators use similar data you can collaborate together to define and write a schema and save it in a shared folder.
 * IF you are a lab manager or leader you can request or require your students to use standard lab schemas in their research.
+* You can use this Excel schema and convert it into a machine-readable format (OCA).
 
 This first Excel schema will meet a lot of user needs, but how can you be sure you are all using the *same* version? This is something that is addressed with the OCA schema standard and the use of SAID identifiers.
 
@@ -31,7 +32,7 @@ Read our [introduction to schemas and the Semantic Engine](semantic_engine.md).
 
 Using the Excel schema that you created when you wrote your first schema, you can [use the OCA parser to generate the OCA Schema Bundle](parse_OCA_schema.md).
 
-Your Excel schema is still a human readable version of the schema, but the OCA Schema Bundle is a machine actionable version of your schema and includes special SAID identifiers helpful for schema versioning.
+Your Excel schema is still a human readable version of the schema, but the OCA Schema Bundle is a machine actionable version of your schema and includes special SAID identifiers helpful for schema versioning and referencing.
 
 ## What can you do with OCA
 
