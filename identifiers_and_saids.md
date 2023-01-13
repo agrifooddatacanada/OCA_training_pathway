@@ -26,4 +26,4 @@ Self-Addressing Identifiers are very useful for tracking digital resources and t
 
 Alternatively, if you only have a SAID reference for a schema, you can find the corresponding schema (or schema part) by looking for the identical SAID of other schemas. If the SAIDs are the same, then the documents are also identical.  
 
-You can confirm that the SAID is legitimate by performing your own SAID hashing of the schema. By comparing the freshly generated SAID to the claimed SAID you can check if the document or SAID has been altered. Agri-food Data Canada is currently developing a SAID verifier where you can upload an OCA schema and confirm the SAID of the schema.
+You can confirm that the SAID is legitimate by performing your own SAID hashing of the schema. By comparing the freshly generated SAID to the claimed SAID you can check if the document or SAID has been altered. Agri-food Data Canada is currently developing a [SAID verifier](https://browser.oca.argo.colossi.network/#/validate) where you can upload an OCA schema and confirm the SAID of the schema.
