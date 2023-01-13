@@ -6,7 +6,7 @@ You will want to deposit your schema somewhere for reference and/or reuse.
 
 The first, and easiest way to deposit your schema for future reference is together with the dataset that it is associated with it. This is most useful for schemas that are very specific to your dataset and where you haven't created the schema with an eye towards reuse.
 
-We suggest that you archive your schema both as the Excel template and the OCA bundle. The OCA bundle is a machine-readable version and is a published standard. This should be the most future-proof version of your schema. The Excel Template is a human readable version and also useful to save with your data. At some point in the future the Excel Template will be depreciated but the OCA schema format will remain.
+We suggest that you save your schema both as the Excel template and the OCA bundle. The OCA bundle is a machine-readable version and is a published standard. This should be the most future-proof version of your schema. The Excel Template is a human readable version and also useful to save with your data. As we develop the Semantic Engine we will depreciate the Excel Template and use other tools instead.
 
 ## Deposit your schema separately in a repository
 
@@ -32,10 +32,9 @@ For reference: Research & Scholarship, 2020, "How to deposit research data in th
 
 ### Versioning
 
-For minor updates (like fixing typos or adding a language overlay) we recommend that you use the replacement feature of the Repository. Be sure that when you update the title of your schema you also change the SAID identifier which should be included in your title.
+For minor updates (like fixing typos or adding a language overlay) we recommend that you use the replacement feature of the Repository. Remember to change the SAID identifier which should be included in your title.
 
 * Use the Replace function. This replaces the file in the record and versions the record.
 * Previous versions of the file are still accessible using the Versions tab in the record.
 
-
-For any other updates we recommend that you create another DOI and deposit the updated schema there. Add the citation (including DOI) to the original version of the schema into the ‘Related Datasets’ field in the record metadata.
+For any other updates we recommend that you create another DOI and deposit the updated schema there. Add the citation (including DOI and SAID) to the original version of the schema into the ‘Related Datasets’ field in the record metadata.
