@@ -89,3 +89,9 @@ It is most likely that your label will be the same as your Attribute Name (if th
 This is where you can describe (in the sheet's language) your attribute in more detail which will be very helpful for other users. Is this attribute measured in a specific way? Do you have a specific way it was sampled? Does this attribute represent the name of the sample on the tube in your sample library? Can you give details about the units so there is no ambiguity? Here is where you can provide useful information for people using the schema and associated data.
 
 ![description example](/pictures/chicken_information_EN.PNG)
+
+# Language specific sheet ('fr')
+
+If you have the need, you can add additional language specific sheets such as this example in French.
+
+![French language sheet example](/pictures/chicken_FR.PNG)
