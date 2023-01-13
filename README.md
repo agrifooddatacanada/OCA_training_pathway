@@ -54,6 +54,8 @@ Be sure to deposit both the Excel Template that you created and the OCA schema b
 
 # 9. Create a data entry sheet in Excel
 
-# 10. Add format and data validation
+# 10. Add drop down menu choices
 
-# 11. Add drop down menu choices
+# 11. Add format and data validation
+
+
