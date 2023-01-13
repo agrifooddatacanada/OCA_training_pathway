@@ -44,6 +44,12 @@ Read about [Identifiers and SAID identifiers](identifiers_and_saids.md), how the
 
 # 7. Deposit your schema in a repository
 
+Read our advice and instructions on multiple ways to [deposit and/or publish your schema](deposit_schema.md) for archiving and public reference.
+
+You can deposit your schema together with your data, or you can put it separately in a repository.
+
+Be sure to deposit both the Excel Template that you created and the OCA schema bundle. The Excel Template will eventually be depreciated as we continue to build the Semantic Engine.
+
 # 8. Reference your schema in your documentation
 
 # 9. Create a data entry sheet in Excel
