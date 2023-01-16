@@ -48,7 +48,7 @@ Read our advice and instructions on multiple ways to [deposit and/or publish you
 
 You can deposit your schema together with your data, or you can put it separately in a repository.
 
-Be sure to deposit both the Excel Template that you created and the OCA schema bundle. The Excel Template will eventually be depreciated as we continue to build the Semantic Engine.
+Be sure to deposit both the Excel Template that you created and the OCA schema bundle. The Excel Template will eventually be depreciated as we continue to build the Semantic Engine, but for now it is the best human-readable version of the schema.
 
 # 8. Reference your schema in your documentation
 
