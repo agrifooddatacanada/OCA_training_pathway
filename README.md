@@ -62,6 +62,8 @@ You may want to create a schema that only allows data entries from a select list
 
 When you create a 'data entry' sheet in Excel using your OCA schema, it will automatically create the necessary dropdown lists which will simplify your data entry.
 
+![example dropdown menu for different bee species](/pictures/Bee_drop_down_example.PNG)
+
 # 11. Add format and data validation 
 
 
