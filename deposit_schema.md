@@ -12,9 +12,9 @@ We suggest that you save your schema both as the Excel template and the OCA bund
 
 Schemas can be written to be useful for multiple datasets. A well written schema can be very useful for a research community because it can make it easier to share and understand data, and save the work of documentation.
 
-You can deposit a schema separately in the University of Guelph's Agri-environmental repository and this will give your schema a citable DOI. You can share and publish this DOI and reference it when you publish your data. Other researchers can reference your schema for their own data collection and publication.
+You can deposit a schema separately in the University of Guelph's Borealis repository and this will give your schema a citable DOI. You can share and publish this DOI and reference it when you publish your data. Other researchers can reference your schema for their own data collection and publication.
 
-Obtaining a DOI
+Obtaining a DOI via Borealis:
 1. [Log in to Borealis](https://borealisdata.ca/loginpage.xhtml), A Canadian Dataverse Repository using your U of G username and password.
 2. Request permission to deposit in the U of G Research Data Repositories at [lib.research@uoguelph.ca](mailto:lib.research@uoguelph.ca).
 3. Once access has been granted, navigate to the Agri-environmental Research Data Repository - [Agri-food Data Canada – Schemas  collection](https://borealisdata.ca/dataverse/adcSchema/).
