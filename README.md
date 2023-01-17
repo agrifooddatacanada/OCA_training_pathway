@@ -19,7 +19,7 @@ Schemas are a way to document your data and help make it more FAIR (Findable, Ac
 * With this Excel document that you create you can store it beside (but separate from) your dataset. 
 * You can share the Excel schema file when you share data.
 * If your lab or collaborators use similar data you can collaborate together to define and write a schema and save it in a shared folder.
-* IF you are a lab manager or leader you can request or require your students to use standard lab schemas in their research.
+* If you are a lab manager or leader you can request or require your students to use standard lab schemas in their research.
 * You can use this Excel schema and convert it into a machine-readable format (OCA). Once you have a machine-readable schema, there are many more tools you can use and build to help you work with data.
 
 This first Excel schema will meet a lot of user needs, but how can you be sure you are all using the *same* version? This is something that is addressed with the OCA schema standard and the use of SAID identifiers.
@@ -48,7 +48,7 @@ Read our advice and instructions on multiple ways to [deposit and/or publish you
 
 You can deposit your schema together with your data, or you can put it separately in a repository.
 
-Be sure to deposit both the Excel Template that you created and the OCA schema bundle. The Excel Template will eventually be depreciated as we continue to build the Semantic Engine, but for now it is the best human-readable version of the schema.
+Be sure to deposit both the Excel Template that you created and the OCA schema bundle. The Excel Template will eventually be depreciated as we continue to build the Semantic Engine, but for now it is the best human-readable version of the schema. It can also be the starting place for adding to your schema.
 
 # 8. Reference your schema in your documentation
 
