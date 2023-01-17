@@ -28,7 +28,7 @@ This first Excel schema will meet a lot of user needs, but how can you be sure y
 
 Read our [introduction to schemas and the Semantic Engine](semantic_engine.md).
 
-# 5. Create an OCA schema from your Excel schema
+# 5. Create an OCA version of your Excel schema
 
 Using the Excel schema that you created when you wrote your first schema, you can [use the OCA parser to generate the OCA Schema Bundle](parse_OCA_schema.md).
 
