@@ -23,11 +23,11 @@ The rest of the sheet contains pre-defined data formats which are for future dat
 
 # Main Sheet
 
-The main sheet lets you describe the basic features and structure of the data.
+Next, go to the 'Main' sheet which is where you describe the basic features and structure of the data.
 
 ## Attribute Names
 
-On the Main tab, under Attribute Names add your unique list of attribute names, also known as variable names or your data column labels. Because this field may be used by many different computer systems we recommend to not include spaces and use under_scores or CamelCase instead.
+On the Main tab, under Attribute Names add your unique list of attribute names, also known as variable names or your data column labels. Because this field may be used by many different computer systems we recommend to not include spaces and use under_scores or CamelCase instead. (tip: if you have data in Excel, you can copy your column headers and use the [paste:transpose function](https://support.microsoft.com/en-us/office/transpose-rotate-data-from-rows-to-columns-or-vice-versa-3419f2e3-beab-4318-aae5-d0f862209744) to copy your column headers as your attribute names).
 
 ![Attribute Name example](/pictures/chicken_attribute_names.PNG)
 
