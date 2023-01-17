@@ -12,7 +12,7 @@ To limit data input to only a select number of choices (like in a drop-down menu
 >3. Entry codes: M&#124;F&#124;X 
 >4. In the language tab for Entry: “M:Male&#124;F:Female&#124;X:Other” for English and “M:Masculin&#124;F:Féminin&#124;X:Autre” for French
 
->Example 2: to limit bee types to only two choices
+>Example 2: to limit bee types to only two choices, with a code (501 or 527) for the actual data, but french or english names available for the data entry.
 >1. Attribute Type: [Numeric]
 >2. Format: [0-9]{3}
 >3. Entry codes: 501&#124;527
