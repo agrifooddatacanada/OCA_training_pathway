@@ -52,6 +52,8 @@ Be sure to deposit both the Excel Template that you created and the OCA schema b
 
 # 8. Reference your schema in your documentation
 
+For OCA schemas, we *highly* recommend that you include the SAID identifier in your citation. The best way to do this is to put the SAID identifier of the schema bundle in the title of your schema when publishing.
+
 # 9. Create a data entry sheet in Excel
 
 # 10. Add drop down menu choices
