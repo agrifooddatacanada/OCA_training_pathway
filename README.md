@@ -56,6 +56,10 @@ Be sure to deposit both the Excel Template that you created and the OCA schema b
 
 # 10. Add drop down menu choices
 
-# 11. Add format and data validation
+You may want to create a schema that only allows data entries from a select list that you define. For example, you may want to limit gender choices to a few and you don't want some entries to say 'M' and other entries 'male' and other entries 'masculine' etc. This would make your analysis more difficult, especially if you are creating a data schema for use by other researchers. The solution is to [create custom dropdown lists in your schema](drop_down_list_instructions.md).
+
+When you create a 'data entry' sheet in Excel using your OCA schema, it will automatically create the necessary dropdown lists which will simplify your data entry.
+
+# 11. Add format and data validation 
 
 
