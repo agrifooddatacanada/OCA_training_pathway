@@ -21,13 +21,15 @@ Obtaining a DOI via Borealis:
 4. Click on ‘Add Data’ button and select ‘New Dataset’ from the drop-down menu.
 5. In the Dataset Template  section, make sure that ‘ADC Schema’ is selected from the drop-down menu.
 6. In the Citation Metadata section, complete the required information (e.g., title, author, contact, description, keywords, depositor name).
-7. Under the Files section, drag and drop your OCA Schema Bundle in (\*.zip) format and the schema template file in MS Excel (\*.xlsx) format. 
+7. Prepare your OCA Schema Bundle by 'zipping' the \*.zip file. The OCA Schema Bundle should now be 'double-zipped'.
+    * This step is necessary because Borealis automatically unzips folders and the OCA Schema Bundle in in zipped format.
+9. Under the Files section, drag and drop your OCA Schema Bundle in (\*.zip) format and the schema template file in MS Excel (\*.xlsx) format. 
     * Note that, depending on the structure of the MS Excel file, the repository software may convert the file to tabular (\*.tab) format upon upload. If this occurs, Library staff will revert the file back to .xlsx format when they review the dataset submission. 
-8. Click Save Dataset. 
+10. Click Save Dataset. 
     * After saving the dataset, a DOI is created and reserved for the record.
-10. Edit the draft record (e.g., descriptive information (metadata) or files) as required.
-11. Click on the ‘Publish Dataset’ button and select ‘Submit for Review’.
-12. Repository staff (at the Library) will review and publish the record.
+11. Edit the draft record (e.g., descriptive information (metadata) or files) as required.
+12. Click on the ‘Publish Dataset’ button and select ‘Submit for Review’.
+13. Repository staff (at the Library) will review and publish the record.
     * Upon publication, the DOI is resolved and becomes a working link. 
 
 For reference: Research & Scholarship, 2020, "How to deposit research data in the Agri-environmental Research Data Repository or the University of Guelph Research Data Repository", https://doi.org/10.5683/SP2/CPHFGA, Borealis
@@ -40,3 +42,7 @@ For **minor updates** (like correcting typos) we recommend that you use the repl
 * Remember to change the SAID identifier which should be included in your title.
 
 For **major updates** we recommend that you create another DOI and deposit the updated schema there. Add the citation (including DOI and SAID) to the original version of the schema into the ‘Related Datasets’ field in the record metadata.
+
+## OCA Repository
+
+Agri-food Data Canada, together with the Human Colossus Foundation is currently developing a specialized repository for OCA Schema creation.
