@@ -11,13 +11,15 @@ Schemas are a way to document your data and help make it more FAIR (Findable, Ac
 
 [Learn what a schema is](what_is_a_schema.md) and how it can apply to your research.
 
+Essentially, a schema describes the struture of your data and can contain helpful information such as what kind of data is in each column, what units you are using, a description of each data column and more. If you want to help people understand how to use your data you could provide them with a schema.
+
 # 3. Write your first schema in Excel
 
 [Following these instructions](create_first_schema.md) you will download the schema template (an Excel file), and based on the dataset you are describing you will enter in minimal schema information in this first iteration.
 
 ## What can you do with this schema?
-* With this Excel document that you create you can store it beside (but separate from) your dataset. 
-* You can share the Excel schema file when you share data.
+* With this Excel document that you create you can store it beside (but separate from) your dataset for reference. 
+* You can share the Excel schema file when you share data to help others understand your data.
 * If your lab or collaborators use similar data you can collaborate together to define and write a schema and save it in a shared folder.
 * If you are a lab manager or leader you can request or require your students to use standard lab schemas in their research.
 * You can use this Excel schema and convert it into a machine-readable format (OCA). Once you have a machine-readable schema, there are many more tools you can use and build to help you work with data.
