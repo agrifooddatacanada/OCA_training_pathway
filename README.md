@@ -60,6 +60,9 @@ For example, the chicken schema would have the title "Chicken gut health. SAID: 
 
 # 9. Create a data entry sheet in Excel
 
+Currently in development, when you create your OCA schema using the [XLS to OCA Converter](https://browser.oca.argo.colossi.network/#/) there is an checkbox option 
+to "Generate Data Entry File". This will create an Excel file suitable for data entry which conforms to the schema that you uploaded.
+
 # 10. Add drop down menu choices
 
 You may want to create a schema that only allows data entries from a select list that you define. For example, you may want to limit gender choices to a few and you don't want some entries to say 'M' and other entries 'male' and other entries 'masculine' etc. This would make your analysis more difficult, especially if you are creating a data schema for use by other researchers. The solution is to [create custom dropdown lists in your schema](drop_down_list_instructions.md).
