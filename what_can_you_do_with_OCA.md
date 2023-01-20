@@ -14,23 +14,21 @@ The OCA schema bundle (together with Excel template) can be shared with your col
 You can confirm that you and your collaborators are using the same schemas by comparing in the [SAIDs](identifiers_and_saids.md) associated with each bundle or individual Capture Base or Overlay.
 
 ## Generate a DOI and publish the OCA schema bundle separately in a repository
-For the polished, finalized versions of your schema you can create a separate [University of Guelph Dataverse/Borealis submission](https://borealisdata.ca/dataverse/ugardr) to contain your schema versions. This gives your schema a DOI (i.e. persistent identifier) that can be referenced in publications. We also recommend that you record the SAIDs of your Capture Base and match them to versions in a separate document.
-
-This methodology is a work in progress and we are interested in working with researchers to develop best practices and recommendations.
+[Deposit and/or publish your schema](deposit_schema.md) in the University of Guelph Borealis repository. This gives your schema a DOI (i.e. persistent identifier) that can be referenced in publications. Be sure to include the SAID of the schema bundle in the title of the schema.
 
 ## Publish the OCA schema bundle in an OCA specific repository
 This is a feature that is currently under development at ADC and we are looking for feedback from researchers about requirements. We seek to create an OCA repository model, that can be federated across Canada so that other instutitions can host a schema repository to meet their user needs but remain connected with all other OCA repositories. 
 
-An OCA specific respository will enable additional functionalities of the OCA schema such as creation of additional overlays by other authors or deeper search functionality.
+An OCA specific respository will enable additional functionalities of the OCA schema such as creation of additional overlays by other authors and deeper search functionality.
 
-An OCA repository will not be incompatible with depositing the schema in other locations as well because of the properties of the [SAIDs](identifiers_and_saids.md) (self-addressing identifiers). Any schema (and specifically the Capture Base although it applies to all schema components) will have an identifier that is computationally calculated from the content. If the content changes in any small way, the identifier (the SAID) is completely different. If you find two schemas in two different locations but they have the same SIAD you are confident that they are identical.
-
+An OCA repository will be compatible with depositing the schema in other locations as well because of the properties of the [SAIDs](identifiers_and_saids.md) (self-addressing identifiers). Any schema will have an identifier that is computationally calculated from the content. If the content changes in any small way, the identifier (the SAID) is completely different. If you find two schemas in two different locations but they have the same SAID you can be confident that they are identical.
 
 ## Generate a form from the OCA schema bundle
 Currently [under development](https://browser.oca.argo.colossi.network/#/preview).
 
 ## Generate an Excel sheet for data entry based on the schema
-The functionality we seek to develop will enable researchers to upload an OCA schema bundle and generate an annotated Excel sheet prepopulated for data entry. Active research data can automatically contain complete data descriptions making it easy to understand through all phases of research.
+Currently in development, when you create your OCA schema using the [XLS to OCA Converter](https://browser.oca.argo.colossi.network/#/) there is an checkbox option 
+to "Generate Data Entry File". This will create an Excel file suitable for data entry which conforms to the schema that you uploaded.
 
 This feature is under development and we are seeking feedback from researchers.
 
