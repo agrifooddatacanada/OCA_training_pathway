@@ -13,7 +13,7 @@ Schemas are a way to document your data and help make it more FAIR (Findable, Ac
 
 Essentially, a schema describes the struture of your data and can contain helpful information such as what kind of data is in each column, what units you are using, a description of each data column and more. If you want to help people understand how to use your data you could provide them with a schema.
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=r8VIIBWmL_k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/r8VIIBWmL_k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # 3. Write your first schema in Excel
 
