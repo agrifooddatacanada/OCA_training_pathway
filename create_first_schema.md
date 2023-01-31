@@ -56,6 +56,8 @@ When you select an Attribute Type you will notice the Character Encoding autofil
 ## Flagged Attribute
 On the Main tab specify Flagged Attribute for sensitive data (e.g. names of people, government identification, birth date etc.). Marking an entry with a “Y” will allow you to flag any attributes where identifying information about entities may be captured. Leaving it blank means the attributes are not flagged.
 
+Flagging an attribute acts as an alert to researchers that they should be cautious with flagged data. 
+
 With Flagged Attributes marked Y all corresponding data can be treated as high-risk throughout the data lifecycle and encrypted or removed at any stage.
 
 ![flagged attribute example](/pictures/chicken_flagged_attribute.PNG)
