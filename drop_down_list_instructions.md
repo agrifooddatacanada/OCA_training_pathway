@@ -11,6 +11,10 @@ To limit data input to only a select number of choices use the following:
 3. Entry Code: write short names or numbers coding for the items in the list (separated by the pipe &#124; symbol)
 4. In each language tab for Entry give more human-readable labels matching each Entry Code to a language specific label
 
+![Bee example entry code overlay](/pictures/bee_dropdown_entry_code.PNG)
+
+![Bee example entry overlay](/pictures/bee_dropdown_entry_en.PNG)
+
 >Example 1: to limit gender entry to one of three choices
 >1. Attribute Type: [text] 
 >3. Entry codes: M&#124;F&#124;X 
