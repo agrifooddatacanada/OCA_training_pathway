@@ -12,7 +12,7 @@ Common PIDs in research include DOIs (digital object identifiers) and ORCiDs ([P
 
 # Self-Addressing Identifiers 
 
-Another type of identifier is [Self-Addressing Identifiers](https://www.ietf.org/id/draft-ssmith-said-02.html) (SAIDs) which take advantage of hashing to create an identifier that is calculated directly from the content of the thing being identified. You can think of hashes as unique fingerprints derived directly from any type of digital object. 
+Another type of PID are [Self-Addressing Identifiers](https://www.ietf.org/id/draft-ssmith-said-02.html) (SAIDs) which take advantage of hashing to create an identifier that is calculated directly from the content of the thing being identified. You can think of hashes as unique fingerprints derived directly from any type of digital object. Most familiar PIDs (such as DOIs) are assigned by a central authority. In contrast, SAIDs are not assigned by anyone, they are calculated directly from the content.
 
 When you create a hash value, you take a digital object, plug it into a one-way formula, and generate another value – the hash value. A hash function always gives the same hash value for the same content and if you change the digital object in any small way, even a single character or space, the resulting hash value will be completely different.  
 
