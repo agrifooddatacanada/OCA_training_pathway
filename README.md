@@ -41,6 +41,8 @@ Your Excel schema is still a human readable version of the schema, but the OCA S
 
 [What can you do with OCA](what_can_you_do_with_OCA.md), both current and future possibilities.
 
+## Verify your OCA schema bundle
+
 # 6. Learn about SAID identifiers
 
 Read about [Identifiers and SAID identifiers](identifiers_and_saids.md), how they relate to the OCA schema, and how they are unique digital fingerprints of your schemas.
