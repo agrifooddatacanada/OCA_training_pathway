@@ -63,14 +63,20 @@ For example, the chicken schema would have the title "Chicken gut health. SAID: 
 
 # 9. Create a data entry sheet in Excel
 
+After you have created a data schema, you can put it to use. Not only will it act as a reference for you and others when looking at the associated data, but you can also use it to generate a schema compliant Excel workbook for data entry.
+
+For example, your lab may want everyone to record their -80 freezer samples using the same schema. The lab collaborates to write a schema that captures all the information they need for their samples. It includes things like a drop-down list of freezers in the lab, box labels, freezer positions, associated project names, sample collector etc.  The schema is put on a common lab folder. Any new student to the lab can create a 'data entry Excel' from this schema which includes helpful descriptions from the schema, appropriate drop-down lists etc. All students in the lab can combine their data together to create a master sample list easily because by using the 'data entry Excel' they have all created schema conformant data that is easily merged.
+
 Currently in development, when you create your OCA schema using the [XLS to OCA Converter](https://browser.oca.argo.colossi.network/#/) there is an checkbox option 
 to "Generate Data Entry File". This will create an Excel file suitable for data entry which conforms to the schema that you uploaded.
 
-# 10. Add drop down menu choices
+# 10. Add drop-down menu choices
 
-You may want to create a schema that only allows data entries from a select list that you define. For example, you may want to limit gender choices to a few and you don't want some entries to say 'M' and other entries 'male' and other entries 'masculine' etc. This would make your analysis more difficult, especially if you are creating a data schema for use by other researchers. The solution is to [create custom dropdown lists in your schema](drop_down_list_instructions.md).
+A feature that you can add to your schema template is to add the ability to only allow data entries from a select list that you define.
 
-When you create a 'data entry' sheet in Excel using your OCA schema, it will automatically create the necessary dropdown lists which will simplify your data entry.
+For example, you may want to limit gender choices to a few and you don't want some entries to say 'M' and other entries 'male' and other entries 'masculine' etc. This would make your analysis more difficult, especially if you are creating a data schema for use by other researchers. The solution is to [create custom dropdown lists in your schema](drop_down_list_instructions.md) Excel template.
+
+An example of drop-down menus in use: when you create a 'data entry' sheet in Excel based on your schema, your drop-down menu items will be automatically created and therefore make data entry easier and less prone to errors.
 
 ![example dropdown menu for different bee species](/pictures/Bee_drop_down_example.PNG)
 
