@@ -51,9 +51,9 @@ Read about [Identifiers and SAID identifiers](identifiers_and_saids.md), how the
 
 Read our advice and instructions on multiple ways to [deposit, share, and/or publish your schema](deposit_schema.md) for archiving and/or public reference.
 
-You can deposit your schema together with your data wherever you store your data, or you can put it separately in a repository.
+You can save your schema together with your data wherever you store your data, be it in a folder on your laptop, a shared drive, cloud storage or in a repository. Alternatively, you can put your schema separately in a repository, especially if it is suitable for others to use.
 
-Be sure to deposit both the Excel Template that you created and the OCA schema bundle. The Excel Template will eventually be depreciated as we continue to build the Semantic Engine, but for now it is the best human-readable version of the schema. It can also be the starting place for adding to your schema.
+Be sure to save both the Excel Template that you created and the OCA schema bundle. The Excel Template will eventually be depreciated as we continue to build the Semantic Engine, but for now it is the best human-readable version of the schema. It can also be the starting place for adding to your schema.
 
 # 8. Reference your schema in your documentation
 
