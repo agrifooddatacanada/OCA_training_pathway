@@ -49,7 +49,7 @@ Read about [Identifiers and SAID identifiers](identifiers_and_saids.md), how the
 
 # 7. Sharing your Data Schema
 
-Read our advice and instructions on multiple ways to [deposit, share, and/or publish your schema](deposit_schema.md) for archiving and/or public reference.
+Read our advice and instructions on multiple ways to [save, deposit, and/or publish your schema](deposit_schema.md) for archiving and/or public reference.
 
 You can save your schema together with your data wherever you store your data, be it in a folder on your laptop, a shared drive, cloud storage or in a repository. Alternatively, you can put your schema separately in a repository, especially if it is suitable for others to use.
 
