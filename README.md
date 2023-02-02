@@ -47,11 +47,11 @@ Your Excel schema is still a human readable version of the schema, but the OCA S
 
 Read about [Identifiers and SAID identifiers](identifiers_and_saids.md), how they relate to the OCA schema, and how they are unique digital fingerprints of your schemas.
 
-# 7. Deposit your schema in a repository
+# 7. Deposit or Publish your Schema
 
 Read our advice and instructions on multiple ways to [deposit and/or publish your schema](deposit_schema.md) for archiving and public reference.
 
-You can deposit your schema together with your data, or you can put it separately in a repository.
+You can deposit your schema together with your data wherever you store your data, or you can put it separately in a repository.
 
 Be sure to deposit both the Excel Template that you created and the OCA schema bundle. The Excel Template will eventually be depreciated as we continue to build the Semantic Engine, but for now it is the best human-readable version of the schema. It can also be the starting place for adding to your schema.
 
