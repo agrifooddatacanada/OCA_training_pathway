@@ -47,9 +47,9 @@ Your Excel schema is still a human readable version of the schema, but the OCA S
 
 Read about [Identifiers and SAID identifiers](identifiers_and_saids.md), how they relate to the OCA schema, and how they are unique digital fingerprints of your schemas.
 
-# 7. Deposit or Publish your Schema
+# 7. Sharing your Data Schema
 
-Read our advice and instructions on multiple ways to [deposit and/or publish your schema](deposit_schema.md) for archiving and public reference.
+Read our advice and instructions on multiple ways to [deposit, share, and/or publish your schema](deposit_schema.md) for archiving and/or public reference.
 
 You can deposit your schema together with your data wherever you store your data, or you can put it separately in a repository.
 
