@@ -1,4 +1,4 @@
-# Saving, Depositing and Publishing your Schema
+# Saving, Depositing and/or Publishing your Schema
 
 You will want to ensure your schema is available for reference and/or reuse.
 
