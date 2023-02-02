@@ -2,7 +2,7 @@
 
 You will want to ensure your schema is available for reference and/or reuse. Here are several options:
 * You can save your schema together with your data
-* You can deposit your schema together with a dataset
+* You can deposit your schema together with a dataset when you put your dataset in a repository
 * You can publish your schema separately, where it is given an identifier you can use to associate the schema with your datasets.
 
 ## Save your schema with your data
