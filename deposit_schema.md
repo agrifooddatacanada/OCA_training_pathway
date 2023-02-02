@@ -1,6 +1,9 @@
-# Saving, Depositing and/or Publishing your Schema (or all three)
+# Saving, Depositing and/or Publishing your Schema
 
-You will want to ensure your schema is available for reference and/or reuse. You can save your schema together with your data, and you can also deposit it and publish it, either together with a published dataset or separately as a publically available schema.
+You will want to ensure your schema is available for reference and/or reuse. Here are several options:
+* You can save your schema together with your data
+* You can deposit your schema together with a dataset
+* You can publish your schema separately, where it is given an identifier you can use to associate the schema with your datasets.
 
 ## Save your schema with your data
 
