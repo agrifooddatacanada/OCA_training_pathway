@@ -1,6 +1,6 @@
-# Depositing your Schema
+# Saving, Depositing and Publishing your Schema
 
-You will want to deposit your schema somewhere for reference and/or reuse.
+You will want to ensure your schema is available for reference and/or reuse.
 
 ## Save your schema with your data
 
