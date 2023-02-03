@@ -58,7 +58,7 @@ On the Main tab specify Flagged Attribute for sensitive data (e.g. names of peop
 
 Flagging an attribute acts as an alert to researchers that they should be cautious with flagged data. 
 
-With Flagged Attributes marked Y all corresponding data can be treated as high-risk throughout the data lifecycle and encrypted or removed at any stage.
+With Flagged Attributes marked Y all corresponding data can be treated by the data user as high-risk throughout the data lifecycle and encrypted or removed at any stage.
 
 ![flagged attribute example](/pictures/chicken_flagged_attribute.PNG)
 
