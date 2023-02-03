@@ -15,9 +15,11 @@ Here is an example dataset about chicken gut health that we will be creating a s
 
 You begin by writing details about the Excel schema on the 'READ ME' sheet. This information helps you figure out what the Excel sheet is when you share it or read it some time after creation when you may not be sure what it contains.
 
+For the user assigned identifier you can create one if you already have some internal process for schema identifiers. We recommend instead that you wait until after you have created a machine-actionable schema which has an auto-generated identifier and come back and enter this identifier later.
+
 You can also give your new Excel schema a different filename such as *schema_TITLE_AUTHOR_v1.xls*. This will help you find and recognize the file in your folder system.
 
-The rest of the sheet contains pre-defined data formats which are for future data validation, and documentation.
+The rest of the sheet is documentation either used by the sheet internally, or to guide users through the OCA specification.
 
 ![read me example](/pictures/chicken_read_me.PNG)
 
@@ -54,6 +56,8 @@ When you select an Attribute Type you will notice the Character Encoding autofil
 ## Flagged Attribute
 On the Main tab specify Flagged Attribute for sensitive data (e.g. names of people, government identification, birth date etc.). Marking an entry with a “Y” will allow you to flag any attributes where identifying information about entities may be captured. Leaving it blank means the attributes are not flagged.
 
+Flagging an attribute acts as an alert to researchers that they should be cautious with flagged data. 
+
 With Flagged Attributes marked Y all corresponding data can be treated as high-risk throughout the data lifecycle and encrypted or removed at any stage.
 
 ![flagged attribute example](/pictures/chicken_flagged_attribute.PNG)
@@ -86,7 +90,7 @@ It is most likely that your label will be the same as your Attribute Name (if th
 
 ## Description
 
-This is where you can describe (in the sheet's language) your attribute in more detail which will be very helpful for other users. Is this attribute measured in a specific way? Do you have a specific way it was sampled? Does this attribute represent the name of the sample on the tube in your sample library? Can you give details about the units so there is no ambiguity? Here is where you can provide useful information for people using the schema and associated data.
+This is where you can describe (in the sheet's language) your attribute in more detail which will be very helpful for other users. Is this attribute measured in a specific way? Do you have a specific way it was sampled? Does this attribute represent the name of the sample on the tube in your sample library? Can you give details about the units so there is no ambiguity? For example, this schema isn't clear if breast weight is of one chicken breast or two, or the average, or a randomly selected one. The description is where you can provide useful information for people using the schema and associated data, especially for people who are outside your research field.
 
 ![description example](/pictures/chicken_information_EN.PNG)
 
