@@ -14,6 +14,6 @@ Otherwise, you will receive an error message. Common issues include missing file
 
 ![OCA Bundle failed with missing files](/pictures/validate_missing_file.png)
 
-...or mismatched SAIDs. In the case below, the SAID of the capture base in an overlay file does not match the capture base JSON file.
+...or [mismatched SAIDs](/identifiers_and_saids.md). In the case below, the SAID of the capture base in an overlay file does not match the capture base JSON file.
 
 ![OCA Bundle failed with mismatched SAIDs](/pictures/validate_mismatched_sai.png)
