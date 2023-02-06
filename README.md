@@ -43,7 +43,7 @@ Your Excel schema is still a human readable version of the schema, but the OCA S
 
 ## Verify your OCA schema bundle
 
-You can [verify the integrity of an OCA Bundle](verify_OCA_bundle.md) by using the validate function of the OCA Browser. The function examines the OCA Bundle for any errors, such as incomplete or incorrect overlays, and provides information about any identified problems.
+You can [verify the integrity of an OCA Bundle](verify_OCA_bundle.md) by using the validate function of the OCA Browser. 
 
 Also see the section ["Learn about SAID identifiers"](#6-learn-about-said-identifiers) below for more information on one of the principles of verifying an OCA Bundle.
 
