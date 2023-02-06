@@ -12,13 +12,15 @@ Common PIDs in research include DOIs (digital object identifiers) and ORCiDs ([P
 
 # Self-Addressing Identifiers 
 
-Another type of identifier is [Self-Addressing Identifiers](https://www.ietf.org/id/draft-ssmith-said-02.html) (SAIDs) which take advantage of hashing to create an identifier that is calculated directly from the content of the thing being identified. You can think of hashes as unique fingerprints derived directly from any type of digital object. 
+Another type of PID are [Self-Addressing Identifiers](https://www.ietf.org/id/draft-ssmith-said-02.html) (SAIDs) which take advantage of hashing to create an identifier that is calculated directly from the content of the thing being identified. You can think of hashes as unique fingerprints derived directly from any type of digital object. Most familiar PIDs (such as DOIs) are assigned by a central authority. In contrast, SAIDs are not assigned by anyone, they are calculated directly from the content.
 
 When you create a hash value, you take a digital object, plug it into a one-way formula, and generate another value – the hash value. A hash function always gives the same hash value for the same content and if you change the digital object in any small way, even a single character or space, the resulting hash value will be completely different.  
 
 One important characteristic about hash functions is that they do not work in reverse. If you are given a hash value, you cannot determine what the original content was. This means that if your digital object contains sensitive information, you cannot recreate that data from the hash value. 
 
 For the OCA schema, all parts of the schema and the schema bundle itself are given SAIDs. Each file of the schema bundle is hashed and then the hash value (the SAID) becomes the filename. You can discover the hash value by looking at each JSON filename of the OCA schema, by looking at the meta.json file inside a schema bundle, or you can calculate it directly using the SAID hashing function. 
+
+![OCA schema JSON bundle showing hashes for overlays and bundle](/pictures/chicken_OCA_meta_hashes_highlighted.PNG)
 
 # Benefits of using SAIDs for Research Objects 
 
