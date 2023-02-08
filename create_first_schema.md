@@ -5,6 +5,8 @@ Don't worry about filling out the entire spreadsheet, by following these steps y
 
 When you enter data into this template, do not change the basic structure because this Excel sheet is the template that can be parsed to generate the OCA schema bundle. For example, you can see that data entry of sheet Main starts on row 3 so you should not delete the rows above.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Sn9uP5U62rA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 # Example Data Set
 
 Here is an example dataset about chicken gut health that we will be creating a schema for. You can create a schema before you collect data (best) or after you collect data.
