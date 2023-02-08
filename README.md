@@ -37,10 +37,6 @@ Using the Excel schema that you created when you wrote your first schema, you ca
 
 Your Excel schema is still a human readable version of the schema, but the OCA Schema Bundle is a machine actionable version of your schema and includes special SAID identifiers helpful for schema versioning and referencing.
 
-## What can you do with OCA
-
-[What can you do with OCA](what_can_you_do_with_OCA.md), both current and future possibilities.
-
 ## Verify your OCA schema bundle
 
 You can [verify the integrity of an OCA Bundle](verify_OCA_bundle.md) by using the validate function of the OCA Browser. 
@@ -51,7 +47,7 @@ Also see the section ["Learn about SAID identifiers"](#6-learn-about-said-identi
 
 Read about [Identifiers and SAID identifiers](identifiers_and_saids.md), how they relate to the OCA schema, and how they are unique digital fingerprints of your schemas.
 
-# 7. Sharing your Data Schema
+# 7. Saving and sharing your Data Schema
 
 Read our advice and instructions on multiple ways to [save, deposit, and/or publish your schema](deposit_schema.md) for archiving and/or public reference.
 

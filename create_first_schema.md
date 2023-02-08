@@ -5,6 +5,8 @@ Don't worry about filling out the entire spreadsheet, by following these steps y
 
 When you enter data into this template, do not change the basic structure because this Excel sheet is the template that can be parsed to generate the OCA schema bundle. For example, you can see that data entry of sheet Main starts on row 3 so you should not delete the rows above.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Sn9uP5U62rA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 # Example Data Set
 
 Here is an example dataset about chicken gut health that we will be creating a schema for. You can create a schema before you collect data (best) or after you collect data.
@@ -15,7 +17,13 @@ Here is an example dataset about chicken gut health that we will be creating a s
 
 You begin by writing details about the Excel schema on the 'READ ME' sheet. This information helps you figure out what the Excel sheet is when you share it or read it some time after creation when you may not be sure what it contains.
 
-For the user assigned identifier you can create one if you already have some internal process for schema identifiers. We recommend instead that you wait until after you have created a machine-actionable schema which has an auto-generated identifier and come back and enter this identifier later.
+Schema title and description: leave blank as this information is autofilled from the 'En' tab.
+
+User assigned identifier: you can create one if you already have some internal process for schema identifiers. We recommend instead that you wait until after you have created a machine-actionable schema which has an auto-generated identifier and come back and enter this identifier later.
+
+Last updated: the date
+
+Any questions, please contact: the contact information of who owns or stewards the schema.
 
 You can also give your new Excel schema a different filename such as *schema_TITLE_AUTHOR_v1.xls*. This will help you find and recognize the file in your folder system.
 
