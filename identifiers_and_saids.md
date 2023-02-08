@@ -4,7 +4,7 @@ In research, referencing research objects such as datasets, organisms, publicati
 
 For example, to make sure we correctly identify a reference publication we include bibliographic information in the citation so that everyone knows exactly which publication is being referred to. Unique references are so important we have created international committees to standardize naming. For example, organisms are given unique and globally specific identifying names (e.g. *Eschereicia coli*, *Gallus gallus* etc.) and chemicals having a formal name derived from explicit naming rules (e.g. IUPAC nomenclature). 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NIqP1WQf0hY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NIqP1WQf0hY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Persistent Identifiers or PIDs 
 
