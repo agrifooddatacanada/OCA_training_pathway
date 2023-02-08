@@ -51,7 +51,7 @@ Also see the section ["Learn about SAID identifiers"](#6-learn-about-said-identi
 
 Read about [Identifiers and SAID identifiers](identifiers_and_saids.md), how they relate to the OCA schema, and how they are unique digital fingerprints of your schemas.
 
-# 7. Sharing your Data Schema
+# 7. Saving and sharing your Data Schema
 
 Read our advice and instructions on multiple ways to [save, deposit, and/or publish your schema](deposit_schema.md) for archiving and/or public reference.
 
