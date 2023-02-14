@@ -2,6 +2,14 @@
 
 Schemas are a way to document your data and help make it more FAIR (Findable, Accessible, Interoperable, Reusable). Creating a schema is a process of continuous improvement. You don't need to create the most perfect and complete schema at the beginning. Instead, follow this pathway to gradual improvement where each step produces something usable for researchers.
 
+What are some benefits:
+* Increase value and usability of data by adding context
+* Enable early metadata creation when it is easier
+* Easier to use standards with metadata
+* Machine readable to reduce the number of times the same information must be manually inputted
+* Easy to reuse existing metadata to generate new metadata
+* Easier to deposit data into archive repositories
+
 [Feedback for creating a schema can be done in this Form](https://forms.office.com/Pages/ResponsePage.aspx?id=K6Fivq0soUml-oX08xVqfcxKJkze2nVHnEbvp9MCrIhUMjY3R0tTUDRTTU42RlBXMlAzRzdTSlo3RiQlQCN0PWcu).
 
 # 1. Introduction to the rationale
