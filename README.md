@@ -90,4 +90,6 @@ An example of drop-down menus in use: when you create a 'data entry' sheet in Ex
 
 # 11. Add format and data validation 
 
+You can control the format of the data by [modifying the format overlay](add_format_values.md). The format values entered for the format overlay are dependent on the [attribute types defined in the Capture Base](create_first_schema.md#attribute-types).
+
 Work is ongoing.
