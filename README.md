@@ -90,4 +90,6 @@ An example of drop-down menus in use: when you create a 'data entry' sheet in Ex
 
 # 11. Add format and data validation 
 
+You can control the format of the data by [modifying the format overlay](add_format_values.md).
+
 Work is ongoing.
