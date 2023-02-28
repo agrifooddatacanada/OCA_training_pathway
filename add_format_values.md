@@ -7,15 +7,15 @@ The format values entered for the format overlay are dependent on the [attribute
 
 ## RegEx
 
-The regular expression, or shortened as "RegEx", is a powerful way to search and filter strings. You could build a search pattern using character literals, operators, or constructs to match specific types of characters in a string. The OCA uses the Rust RegEx Flavour, with the full documentation could be found [here](https://docs.rs/regex/latest/regex/#syntax). 
+The regular expression, or shortened as "RegEx", is a powerful way to search and filter strings. You could build a search pattern using character literals, operators, or constructs to match specific types of characters in a string. The OCA uses the Rust RegEx Flavour, with the full documentation that could be found [here](https://docs.rs/regex/latest/regex/#syntax). 
 
 ### Frequently used RegEx syntaxes
 
 #### Character Classes and Ranges
 
-The character classes and ranges would appear inside of square brackets (`[...]`). A character class would match a single character with the following pattern:
+The character classes and ranges would appear inside square brackets (`[...]`). A character class would match a single character with the following pattern:
 
-- `[abc]` matches charactor `a`, `b`, or `c`.
+- `[abc]` matches character `a`, `b`, or `c`.
 - `[^abc]` matches any character that is not `a`, `b`, or `c`.
 - `[a-c]` matches any character in the range `a-c`, that is, `a`, `b`, or `c`.
 - `[a-zA-Z]` matches any character in the range of `a-z` or `A-Z`, that is, any uppercase or lowercase letter.
@@ -26,17 +26,17 @@ The character classes and ranges would appear inside of square brackets (`[...]`
 - `abc|xyz` matches `abc` or `xyz`.
 - `a*` matches `a` repeated for **zero or more** times.
 - `a+` matches `a` repeated for **one or more** times.
-- `a?` matches `a` repeated for **zero or one** times.
+- `a?` matches `a` repeated for **zero or one** time.
 - `a{n, m}` matches `a` repeated for **at least** `n` and **at most** `m` times.
 
 #### Anchors
 
-You may have noticed that the regular expressions allows partial matching by default. E.g. `abc` actually matches any string that **contains** the pattern `abc`; it could be `abc`, `abcde`, or `&0xyzabcdef-()`. 
+You may have noticed that the regular expressions allow partial matching by default. E.g. `abc` actually matches any string that **contains** the pattern `abc`; it could be `abc`, `abcde`, or `&0xyzabcdef-()`. 
 
 The following anchors would help.
 
-- `^` matches the beginning of the string. `^abc` only matches strings that **begins** with `abc`.
-- `$` matches the end of the string. `abc$` only matches strings that **ends** with `abc`.
+- `^` matches the beginning of the string. `^abc` only matches strings that **begin** with `abc`.
+- `$` matches the end of the string. `abc$` only matches strings that **end** with `abc`.
 - `^abc$` only matches the **exact string** `abc`.
 
 #### Special Characters
@@ -51,7 +51,7 @@ The following anchors would help.
 
 | Target Strings | RegEx Pattern | 
 | -------------- | ------------- |
-| codes contains any capital latters | `[A-Z]` |
+| codes contain any capital latter | `[A-Z]` |
 | codes with only capital letters | `^[A-Z]*$` |
 | codes with only capital letters, or only with lowercase letters | `^([A-Z]*\|[a-z]*)$` |
 | 10 characters codes, with capital and lowercase letters only | `^[A-Za-z]{10}$` |
@@ -61,7 +61,7 @@ The following anchors would help.
 
 ### Numeric matching examples:
 
-In OCA, we also use RegEx to deal with numeric attributes. However, RegEx does not understand numbers; it only match then as characters. E.g. if we want an integer within range $[10, 30]$, we actually use pattern `^([1-2][0-9])|(20)$` to match "character `1` or `2` followed by any digit; or characters `30`". It may be tricky to deal with complacated numeric conditions.
+In OCA, we also use RegEx to deal with numeric attributes. However, RegEx does not understand numbers; it only matches them as characters. E.g. if we want an integer within the range $[10, 30]$, we actually use pattern `^([1-2][0-9])|(20)$` to match "character `1` or `2` followed by any digit; or characters `30`". It may be tricky to deal with complicated numeric conditions.
 
 | Target Strings | RegEx Pattern | 
 | -------------- | ------------- |
@@ -72,7 +72,7 @@ In OCA, we also use RegEx to deal with numeric attributes. However, RegEx does n
 | decimal numbers between 0 and 1, inclusive | `^\+?((0?\.\d+)\|(1(\.0+)?))$` |
 | decimal numbers between -90 and 90, inclusive | `^[-+]?([1-8]?\d(\.\d+)?\|90(\.0+)?)$` |
 | decimal numbers between -180 and 180, inclusive | `^[-+]?(180(\.0+)?\|((1[0-7]\d)\|([1-9]?\d))(\.\d+)?)$` |
-| latitude and longitude (combanation of the two above, seperated with a single comma and space) | `^[-+]?([1-8]?\d(\.\d+)?\|90(\.0+)?),\s*[-+]?(180(\.0+)?\|((1[0-7]\d)\|([1-9]?\d))(\.\d+)?)$` |
+| latitude and longitude (combination of the two above, separated with a single comma and space) | `^[-+]?([1-8]?\d(\.\d+)?\|90(\.0+)?),\s*[-+]?(180(\.0+)?\|((1[0-7]\d)\|([1-9]?\d))(\.\d+)?)$` |
 
 
 
