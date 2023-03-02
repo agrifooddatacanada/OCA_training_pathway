@@ -1,9 +1,9 @@
 # Add Format Values of the Data Fields
 
 The format values entered for the format overlay are dependent on the [attribute types](create_first_schema.md#attribute-types) defined in the Capture Base. Especially, we have:
-- **Text/Numeric**: Regular Expression (Regex)
-- **Binary**: MIME type registered with the Internet Assigned Numbers Authority
-- **DateTime**: date and time representation as defined by ISO 8601
+- **Text/Numeric**: [Regular Expression (Regex)](#regex)
+- **Binary**: [MIME type registered with the Internet Assigned Numbers Authority](#mime-types)
+- **DateTime**: [date and time representation as defined by ISO 8601](#iso-8601-datetime)
 
 ## Regex
 
@@ -88,7 +88,7 @@ If this is not done by default, please remember to check the regex flags `g` and
 
 MIME tutorials and examples here
 
-## ISO 8601
+## ISO 8601 DateTime
 
 ISO 8601 DateTime tutorials and examples here
 
