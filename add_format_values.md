@@ -7,7 +7,7 @@ The format values entered for the format overlay are dependent on the [attribute
 
 ## Regex
 
-The regular expression, or shortened as "regex", is a powerful way to search and filter strings. You could build a search pattern using character literals, operators, or constructs to match specific types of characters in a string. The OCA uses the Rust regex Flavour, with the full documentation that could be found [here](https://docs.rs/regex/latest/regex/#syntax). 
+A regular expression, or shortened as "regex", is a powerful way to search and filter strings. You could build a search pattern using character literals, operators, or constructs to match specific types of characters in a string. The OCA uses the Rust regex Flavour, with the full documentation that could be found [here](https://docs.rs/regex/latest/regex/#syntax). 
 
 ### Frequently Used Regex Syntaxes
 
@@ -86,7 +86,23 @@ If this is not done by default, please remember to check the regex flags `g` and
 
 ## MIME Types
 
-MIME tutorials and examples here
+A MIME type, defined by [ITEF RFC6838](https://datatracker.ietf.org/doc/html/rfc6838), indicates the format for mostly file types. 
+
+All MIME types follow a basic template of two parts, separated by a single slash (`/`): 
+
+```
+type/subtype
+```
+
+You could find a complete list of MIME types [here](https://www.iana.org/assignments/media-types/media-types.xhtml). The following are some frequently used MIME types.
+
+| Image      | Video     | Audio      | Application     | Text          |  
+| ---------- | --------- | ---------- | --------------- | ------------- |
+| image/png  | video/mp4 | audio/mpeg | application/pdf | text/csv      |
+| image/jpeg | video/raw | audio/ogg  |                 | text/xml      |
+| image/tiff |           |            |                 | text/markdown |
+
+
 
 ## ISO 8601 DateTime
 
