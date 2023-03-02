@@ -106,5 +106,31 @@ You could find a complete list of MIME types [here](https://www.iana.org/assignm
 
 ## ISO 8601 DateTime
 
-ISO 8601 DateTime tutorials and examples here
+[ISO 8601](https://www.iso.org/standard/40874.html) specifies an international format of date and time data. You could find a summary of the standard by Markus Kuhn [here](https://www.cl.cam.ac.uk/~mgk25/iso-time.html).
+
+By ISO 8601, you could use the following representations:
+
+- `YYYY` for years, `MM` for months (in two digits, `01` through `12`), and `DD` for days. Separated by a single dash (`-`) or nothing.
+- `Www`, the literal `W` and two-digit week number `ww`, could be used after the year instead. An optional following `D` represents the weekday number, from 1 through 7, beginning with Monday. Separated by a single dash (`-`) or nothing.
+- `DDD`, the ordinal date, could be used after the year instead. It is a three-digit number of days in a year from `001` through `365` or `366`.
+- `hh` for hours, `mm` for minutes, and `ss` (or `ss.sss` for a certain number of decimal places) for seconds. The time is led by a literal `T` and separated by a single colon (`:`) or nothing.
+- `Z` for the time in UTC, or `±hh:mm` `±hhmm` `±hh` for other time zones after the time representation.
+- `PnYnMnDTnHnMnS`, `PnW`, or `P<date>T<time>`, with all capital letters being literals and all `n`'s being numbers, could be used to represent durations.
+- `<start>/<end>`, `<start>/<duration>`, `<duration>/<end>`, or `<duration>` could be used to represent time intervals.
+- `Rn/<interval>` or `R/<interval>`, with `n` for the number of repetitions, could be used to represent repeated intervals.
+
+The following are some ISO 8601 DateTime examples.
+
+| Type | ISO 8601 Format | Example of a DateTime Allowed |
+| ---- | --------------- | ----------------------------- |
+| date (year, month, and day) | `YYYY-MM-DD` | `2001-02-03` |
+| date (year and month) | `YYYY-MM` | `2001-02` |
+| date (year, month, and day), basic format | `YYYYMMDD` | `20010203` |
+| date (year, month, and day) and time | `YYYY-MM-DDThh:mm:ss.sss` | `2001-02-03T04:00:00` |
+| date (year, month, and day) and time, in UTC | `YYYY-MM-DDThh:mm:ss.sssZ` | `2001-02-03T04:00:00Z` |
+| time, with time zone offset (in hours) | `Thh:mm:ss.sss±hh` | `T04:00:00-05` |
+| durations (in years, months, days, and hours) | `PnYnMnDTnH` | `P1Y2M3DT4H` |
+
+
+
 
