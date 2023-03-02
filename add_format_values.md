@@ -68,7 +68,7 @@ In OCA, we also use RegEx to deal with numeric attributes. However, RegEx does n
 | any string starts with a digit `0-5` | `^[0-5]` |
 | integer numbers between 1 and 50 | `^([1-9]\|[1-4][0-9]\|50)$` |
 | integer numbers between -50 and 50 | `^-?([0-9]\|[1-4][0-9]\|50)$` |
-| any integer or decimal number, may begin with `+` or `-` | `^[-+]?\d*\.+\d+$` |
+| any integer or decimal number, may begin with `+` or `-` | `^[-+]?\d*\.?\d+$` |
 | decimal numbers between 0 and 1, inclusive | `^\+?((0?\.\d+)\|(1(\.0+)?))$` |
 | decimal numbers between -90 and 90, inclusive | `^[-+]?([1-8]?\d(\.\d+)?\|90(\.0+)?)$` |
 | decimal numbers between -180 and 180, inclusive | `^[-+]?(180(\.0+)?\|((1[0-7]\d)\|([1-9]?\d))(\.\d+)?)$` |
