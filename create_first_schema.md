@@ -1,5 +1,5 @@
 # Download the Excel Schema Template
-Download the [Excel schema template](/pictures/UoG_SchemaTemplate_v1.xlsx)
+Download the [Excel schema template](/pictures/UoG_SchemaTemplate_v2.xlsx)
 
 Don't worry about filling out the entire spreadsheet, by following these steps you will create enough information for a useful, minimal schema.
 
