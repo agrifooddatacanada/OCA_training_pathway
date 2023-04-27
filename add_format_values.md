@@ -72,7 +72,9 @@ In OCA, we also use regex to deal with numeric attributes. However, regex does n
 | decimal numbers between 0 and 1, inclusive | `^\+?((0?\.\d+)\|(1(\.0+)?))$` |
 | decimal numbers between -90 and 90, inclusive | `^[-+]?(90(\.0+)?\|[1-8]?\d?(\.\d+)?)$` |
 | decimal numbers between -180 and 180, inclusive | `^[-+]?(180(\.0+)?\|((1[0-7]\d)\|([1-9]?\d?))(\.\d+)?)$` |
-| latitude and longitude (combination of the two above, separated with a single comma and space) | `^[-+]?(90(\.0+)?\|[1-8]?\d?(\.\d+)?),\s*[-+]?(180(\.0+)?\|((1[0-7]\d)\|([1-9]?\d?))(\.\d+)?)$` |
+| latitude and longitude (combination of the two above, separated with a single comma and space), see visualization below | `^[-+]?(90(\.0+)?\|[1-8]?\d?(\.\d+)?),\s*[-+]?(180(\.0+)?\|((1[0-7]\d)\|([1-9]?\d?))(\.\d+)?)$` |
+
+![a visualization of the last regex example](/pictures/regex_visual_example.PNG)
 
 ### Testing Regex
 
