@@ -86,7 +86,7 @@ For example, you may want to limit gender choices to a few and you don't want so
 
 An example of drop-down menus in use: when you create a 'data entry' sheet in Excel based on your schema, your drop-down menu items will be automatically created and therefore make data entry easier and less prone to errors.
 
-![example dropdown menu for different bee species](/pictures/Bee_drop_down_example.PNG)
+![example dropdown menu for different bee species](/pictures/bee_drop_down_example.PNG)
 
 # 11. Add format and data validation 
 
