@@ -75,7 +75,7 @@ After you have created a data schema, you can put it to use. Not only will it ac
 
 For example, your lab may want everyone to record their -80 freezer samples using the same schema. The lab collaborates to write a schema that captures all the information they need for their samples. It includes things like a drop-down list of freezers in the lab, box labels, freezer positions, associated project names, sample collector etc.  The schema is put on a common lab folder. Any new student to the lab can create a 'data entry Excel' from this schema which includes helpful descriptions from the schema, appropriate drop-down lists etc. All students in the lab can combine their data together to create a master sample list easily because by using the 'data entry Excel' they have all created schema conformant data that is easily merged.
 
-Currently in development, when you create your OCA schema using the [XLS to OCA Converter](https://browser.oca.argo.colossi.network/#/) there is an checkbox option 
+Currently in development, when you create your OCA schema using the [XLS to OCA Converter](https://www.semanticengine.org/#/develop) there is an checkbox option 
 to "Generate Data Entry File". This will create an Excel file suitable for data entry which conforms to the schema that you uploaded.
 
 # 10. Add drop-down menu choices
