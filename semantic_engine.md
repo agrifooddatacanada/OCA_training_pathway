@@ -11,8 +11,6 @@ One of the first tools we are developing will help researchers more easily creat
 
 Data must be structured to be understood and a schema describes the structure of the data. 
 
-![An example table of data whose column headers let us infer the meaning of the numbers in the columns. However, we need more information if we want to be able to reuse and understand the data in the table.](/pictures/semantic-engine-data-schema.png)
-
 For example, a schema can describe what information is contained within the columns of a dataset. Researchers can tune the detail of descriptions in their data schemas depending on their needs. We can represent a schema in a table format like the example below:
 
 ![A table representation of the schema of an associated data table.](/pictures/semantic-engine-schema-table.png)
@@ -29,20 +27,24 @@ To create the semantic engine, Agri-food Data Canada is partnering with the [Hum
 
 ![The Human Colossus Foundation has developed overlays capture architecture (OCA), which is an open, international standard for data schemas. Agri-food Data Canada is adopting and adapting OCA in partnership with the Human Colossus Foundation](/pictures/semantic-engine-hcf-adc.png)
 
-From a table representation of a schema, an OCA schema splits each feature into a separate layer. Each layer is a separate file (written in a machine-readable format) that recognizes the capture base, or the foundation of the schema describing the data set. Layers are added to the schema to provide more detail, making it easier to understand and use data collected and structured according to the associated schema.
+From a table representation of a schema, an OCA schema splits each feature into a separate layer. Each layer is a separate file (written in a machine-readable format) that recognizes the capture base, or the foundation of the schema describing the data set. 
 
 ![The different features of the data schema can be expressed as layers (or overlays) of the capture base. This is the overlays capture architecture, which can be expressed in a machine-readable format.](/pictures/semantic-engine-overlays.png)
+
+**Capture Base**. This is the most basic, foundational structure of the schema. The capture base contains an identifier that all other overlays reference. A capture base is most valuable when it doesn't change much. Details are added to the schema via the overlays without changing the capture base which keeps the schema structure consistent which is good for interoperability.
+
+![The Capture Base of a schema contains the basic structure and minimal elements of the schema.](pictures/semantic_engine_capture_base.PNG)
+
+**Overlays**. Layers are added to the schema to provide more detail, making it easier to understand and use data collected and structured according to the associated schema. Layers can be more than just descriptions and labels. For example, a user can add a data transformation layer that contains instructions for transforming data from another schema into their format. This would help users wanting to work with data presented in an unusual format. The data transformation layer records how to transform data from one schema type to another, making data collected with two different capture bases interoperable.
+
+![The Overlays of a schema provide more detail and build upon the capture base.](/pictures/semantic_engine_overlays.PNG)
 
 The many benefits of the OCA-layered schema architecture include the following:
 
 * Improved interoperability and extensibility
-* Each layer is independent and references the unique identifier of the capture base
+* Each layer is independent and references the unique identifier of the Capture Base
 * Users can begin with a basic schema, and as it becomes necessary (or popular), they can add layers referencing the capture base and increase schema usability
 * Users can extend and improve other people’s schemas to fit their needs. Rather than creating a new schema, users can add new layers while keeping the same capture base, so the data remains interoperable
-
-![Examples of types of layers that are part of the overlays capture architecture specification.](/pictures/semantic-engine-example-overlays.png)
-
-Layers can be more than just descriptions and labels. For example, a user can add a data transformation layer that contains instructions for transforming data from another schema into their format. This would help users wanting to work with data presented in an unusual format. The data transformation layer records how to transform data from one schema type to another, making data collected with two different capture bases interoperable.
 
 After schemas have been created they can be published as a separate research object. This makes it easier for others to adopt and adapt existing schemas rather than recreating the work. The result is data that is more interoperable and easy to be understood by users.
 
