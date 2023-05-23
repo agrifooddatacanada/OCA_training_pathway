@@ -2,9 +2,7 @@
 
 The Excel template with the schema information can be parsed into a machine actionable, standard representation of the schema called [Overlays Capture Architecture (OCA)](https://oca.colossi.network/).
 
-[XLS to OCA Converter](https://browser.oca.argo.colossi.network/#/) is currently hosted at Human Colossus Foundation (HCF) in the first phase of development. The Semantic Engine's template is derived from the template found hosted by HCF.
-
-Upload the Excel document into the [parser to create the OCA Bundle](https://browser.oca.argo.colossi.network/#/).
+The [SemanticEngine.org](https://www.semanticengine.org) website is where you will find the [XLS to OCA Converter](https://www.semanticengine.org/#/develop) which converts the Excel Template to the OCA Bundle.
 
 ![OCA converter](/pictures/chicken_ready_for_OCA_conversion.PNG)
 
