@@ -67,7 +67,7 @@ Be sure to save both the Excel Template that you created and the OCA schema bund
 
 For OCA schemas, we *highly* recommend that you include the SAID identifier in your citation. The best way to do this is to put the SAID identifier of the schema bundle in the title of your schema when publishing. 
 
-For example, the chicken schema would have the title "Chicken gut health. SAID: EC-qVNrv55nXKfvd-beQkiGXoeZuTSN6YPcIE49chxhQ".
+For example, the chicken schema would have the title "Chicken gut health. SAID: 6853d5909bdf83575ba98be845f713b9".
 
 # 9. Create a data entry sheet in Excel
 
