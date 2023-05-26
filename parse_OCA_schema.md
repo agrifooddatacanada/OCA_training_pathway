@@ -18,6 +18,10 @@ You can open the archive and view the JSON code of the schema. The "meta.json" f
 
 After you have created a OCA schema bundle from an Excel template we recommend that you copy the schema bundle SAID identifier onto the 'README' sheet of your Excel template.
 
+![OCA Bundle file name](/pictures/chicken_OCA_bundle.PNG)
+
+Copy the file name SAID to your template schema.
+
 ![adding the OCA SAID identifier back into the template schema](/pictures/chicken_Excel_with_OCA_SAID.PNG)
 
 # More information about OCA
