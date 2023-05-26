@@ -16,7 +16,7 @@ You can open the archive and view the JSON code of the schema. The "meta.json" f
 
 ![meta.json file contents](/pictures/chicken_OCA_meta.PNG)
 
-After you have created a OCA schema bundle from an Excel template we recommend that you copy the schema bundle SAID identifier onto the 'README' sheet of your Excel template.
+After you have created a OCA schema bundle from an Excel template we recommend that you copy the schema bundle SAID identifier onto the 'README' sheet of your Excel template. The schema bundle SAID is the filename of the .zip file.
 
 ![OCA Bundle file name](/pictures/chicken_OCA_bundle.PNG)
 
