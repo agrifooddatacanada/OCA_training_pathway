@@ -9,7 +9,7 @@ When you enter data into this template, do not change the basic structure becaus
 
 # Example Data Set
 
-Here is an example dataset about chicken gut health that we will be creating a schema for. You can create a schema before you collect data (best) or after you collect data.
+Here is an [example dataset about chicken gut health](examples/chicken_example_data.xlsx) that we will be creating a schema for. You can create a schema before you collect data (best) or after you collect data.
 
 ![example data set](/pictures/chicken_sample_data.PNG)
 
