@@ -24,9 +24,7 @@ Obtaining a DOI via Borealis:
 4. Click on ‘Add Data’ button and select ‘New Dataset’ from the drop-down menu.
 5. In the Dataset Template  section, make sure that ‘ADC Schema’ is selected from the drop-down menu.
 6. In the Citation Metadata section, complete the required information (e.g., title, author, contact, description, keywords, depositor name).
-    * Include the SAID of your schema bundle (the schema bundle SAID is the name of your .zip file without the .zip ending) in your title.
-    * ![SAID identifier of the schema bundle](/pictures/chicken_OCA_bundle.PNG)
-8. Prepare your OCA Schema Bundle by 'zipping' the \*.zip file, That is, create a zip archive of the original zip archive. The OCA Schema Bundle should now be 'double-zipped'.
+7. Prepare your OCA Schema Bundle by 'zipping' the \*.zip file, That is, create a zip archive of the original zip archive. The OCA Schema Bundle should now be 'double-zipped'.
     * This step is necessary because Borealis automatically unzips zipped archives and the OCA Schema Bundle must be in zipped format.
 9. Under the Files section, drag and drop your OCA Schema Bundle in (\*.zip) format and the schema template file in MS Excel (\*.xlsx) format. 
     * Note that, depending on the structure of the MS Excel file, the repository software may convert the file to tabular (\*.tab) format upon upload. If this occurs, Library staff will revert the file back to .xlsx format when they review the dataset submission. 
