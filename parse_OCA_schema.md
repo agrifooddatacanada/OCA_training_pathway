@@ -12,11 +12,11 @@ If there are no problems with the template file that you have created, you will 
 
 The OCA Bundle contains the Capture Base and associated Overlays as files bundled into an archival (.zip) format.
 
-You can open the archive and view the JSON code of the schema. The "meta.json" file lists is the most human readable and lists all Overlays and Capture Base including their SAID identifiers. The SAID identifiers for Overlays, Capture Base and the entire OCA Bundle are also their filenames. 
+You can open the archive and view the JSON code of the schema. The "meta.json" file lists is the most human readable and lists all Overlays and Capture Base including their SAID identifiers. 
 
 ![meta.json file contents](/pictures/chicken_OCA_meta.PNG)
 
-After you have created a OCA schema bundle from an Excel template we recommend that you copy the schema bundle SAID identifier onto the 'README' sheet of your Excel template.
+After you have created a OCA schema bundle from an Excel template we recommend that you copy the root SAID identifier onto the 'README' sheet of your Excel template.
 
 ![adding the OCA SAID identifier back into the template schema](/pictures/chicken_Excel_with_OCA_SAID.PNG)
 
