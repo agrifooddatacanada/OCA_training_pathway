@@ -22,7 +22,7 @@ One important characteristic about hash functions is that they do not work in re
 
 For the OCA schema, all parts of the schema and the schema bundle itself are given SAIDs. Each file of the schema bundle is hashed and then the hash value (the SAID) becomes the filename. You can discover the hash value by looking at each JSON filename of the OCA schema, by looking at the meta.json file inside a schema bundle, or you can calculate it directly using the SAID hashing function. 
 
-![OCA schema JSON bundle showing hashes for overlays and bundle](/pictures/chicken_OCA_meta.PNG)
+![OCA schema JSON bundle showing hashes for overlays and bundle](/pictures/chicken_OCA_meta_hashes_highlighted.PNG)
 
 # Benefits of using SAIDs for Research Objects 
 
