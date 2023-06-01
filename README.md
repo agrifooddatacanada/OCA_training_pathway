@@ -63,13 +63,13 @@ You can save your schema together with your data wherever you store your data, b
 
 Be sure to save both the Excel Template that you created and the OCA schema bundle. The Excel Template will eventually be depreciated as we continue to build the Semantic Engine, but for now it is the best human-readable version of the schema. It can also be the starting place for adding to your schema.
 
-# 8. Reference your schema in your documentation
+<!-- # 8. Reference your schema in your documentation
 
 For OCA schemas, we *highly* recommend that you include the SAID identifier in your citation. The best way to do this is to put the SAID identifier of the schema bundle in the title of your schema when publishing. 
 
-For example, the chicken schema would have the title "Chicken gut health. SAID: 6853d5909bdf83575ba98be845f713b9".
+For example, the chicken schema would have the title "Chicken gut health. SAID: Exxxxx".-->
 
-# 9. Create a data entry sheet in Excel
+# 8. Create a data entry sheet in Excel
 
 After you have created a data schema, you can put it to use. Not only will it act as a reference for you and others when looking at the associated data, but you can also use it to generate a schema compliant Excel workbook for data entry.
 
@@ -78,7 +78,7 @@ For example, your lab may want everyone to record their -80 freezer samples usin
 Currently in development, when you create your OCA schema using the [XLS to OCA Converter](https://www.semanticengine.org/#/develop) there is an checkbox option 
 to "Generate Data Entry File". This will create an Excel file suitable for data entry which conforms to the schema that you uploaded.
 
-# 10. Add drop-down menu choices
+# 9. Add drop-down menu choices
 
 A feature that you can add to your schema template is to add the ability to only allow data entries from a select list that you define.
 
@@ -88,7 +88,7 @@ An example of drop-down menus in use: when you create a 'data entry' sheet in Ex
 
 ![example dropdown menu for different bee species](/pictures/bee_drop_down_example.PNG)
 
-# 11. Add format and data validation 
+# 10. Add format and data validation 
 
 You can control the formatting of the data by modifying the format overlay. 
 
