@@ -24,7 +24,7 @@ Obtaining a DOI via Borealis:
 4. Click on ‘Add Data’ button and select ‘New Dataset’ from the drop-down menu.
 5. In the Dataset Template  section, make sure that ‘ADC Schema’ is selected from the drop-down menu.
 6. In the Citation Metadata section, complete the required information (e.g., title, author, contact, description, keywords, depositor name).
-7. Prepare your OCA Schema Bundle by 'zipping' the \*.zip file, That is, create a zip archive of the original zip archive. The OCA Schema Bundle should now be 'double-zipped'.
+7. Prepare your OCA Schema Bundle by 'zipping' the \*.zip file, That is, create a zip archive of the original zip archive. **The OCA Schema Bundle should now be 'double-zipped'**.
     * This step is necessary because Borealis automatically unzips zipped archives and the OCA Schema Bundle must be in zipped format.
 9. Under the Files section, drag and drop your OCA Schema Bundle in (\*.zip) format and the schema template file in MS Excel (\*.xlsx) format. 
     * Note that, depending on the structure of the MS Excel file, the repository software may convert the file to tabular (\*.tab) format upon upload. If this occurs, Library staff will revert the file back to .xlsx format when they review the dataset submission. 
@@ -42,9 +42,8 @@ For reference: Research & Scholarship, 2020, "How to deposit research data in th
 For **minor updates** (like correcting typos) we recommend that you use the replacement feature of the Repository. 
 * Use the Replace function. This replaces the file in the record and versions the record.
 * Previous versions of the file are still accessible using the Versions tab in the record.
-* Remember to change the SAID identifier which should be included in your title.
 
-For **major updates** we recommend that you create another DOI and deposit the updated schema there. Add the citation (including DOI and SAID) to the original version of the schema into the ‘Related Datasets’ field in the record metadata.
+For **major updates** we recommend that you create another DOI and deposit the updated schema there. Add the citation (including DOI) to the original version of the schema into the ‘Related Datasets’ field in the record metadata.
 
 ## OCA Repository
 
