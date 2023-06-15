@@ -43,7 +43,7 @@ On the Main tab, under Attribute Names add your unique list of attribute names, 
 
 ## Classification
 
-As you enter Attribute Names you will see the Classification column autofills with [CRDC:RDF40](https://www23.statcan.gc.ca/imdb/p3VD.pl?Function=getVD&TVD=1278187&CVD=1278188&CPV=RDF40&CST=01012020&CLV=1&MLV=4). This is a Statistics Canada designation for Research and Development in agricultural and veterinary sciences. This helps classify your data schema for future searches.
+As you enter Attribute Names you will see the Classification column autofills with [CRDC:RDF40](https://www23.statcan.gc.ca/imdb/p3VD.pl?Function=getVD&TVD=1278187&CVD=1278188&CPV=RDF40&CST=01012020&CLV=1&MLV=4). This is from the [Canadian Research and Development Classification (CRDC) version 1](https://www.statcan.gc.ca/en/subjects/standard/crdc/2020v1/index) designation for Research and Development in Agricultural and Veterinary Sciences. This helps classify your data schema for future searches.
 
 ## Attribute Types
 On the Main tab specify the Attribute Type, which should be one of the following:
