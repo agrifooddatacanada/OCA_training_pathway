@@ -80,7 +80,9 @@ to "Generate Data Entry File". This will create an Excel file suitable for data 
 
 # 9. Add drop-down menu choices
 
-A feature that you can add to your schema template is to add the ability to only allow data entries from a select list that you define.
+A feature that you can add to your schema template is to add the ability to only allow data entries from a select list that you define (Entry Codes).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/T-Uzr3p41SM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 For example, you may want to limit gender choices to a few and you don't want some entries to say 'M' and other entries 'male' and other entries 'masculine' etc. This would make your analysis more difficult, especially if you are creating a data schema for use by other researchers. The solution is to [create custom dropdown lists in your schema](drop_down_list_instructions.md) Excel template.
 
