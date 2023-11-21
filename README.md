@@ -1,5 +1,7 @@
 # A pathway for creating data schemas
 
+**Create data schemas at the [Semantic Engine](https://semanticengine.org) using our friendly user interface which walks through all the steps here**
+
 Schemas are a way to document your data and help make it more FAIR (Findable, Accessible, Interoperable, Reusable). Creating a schema is a process of continuous improvement. You don't need to create the most perfect and complete schema at the beginning. Instead, follow this pathway to gradual improvement where each step produces something usable for researchers.
 
 What are some benefits:
