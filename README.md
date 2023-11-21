@@ -94,7 +94,7 @@ An example of drop-down menus in use: when you create a 'data entry' sheet in Ex
 
 You can control the formatting of the data by modifying the format overlay. 
 
-In an Excel Template, you could choose to [add format values to certain attributes](add_format_values.md). Format values restrict the formatting of the data, and any data entries that do not conform to the format will be filtered out during [OCA data set validation](validate_OCA_data_set.md).
+In an Excel Template, you could choose to [add format values to certain attributes](add_format_values.md). Format values restrict the formatting of the data, and any data entries that do not conform to the format will be filtered out during [OCA data set validation](https://github.com/agrifooddatacanada/OCA_data_set_validator).
 
 ![example format value for an attribute](/pictures/format_value_example.PNG)
 
