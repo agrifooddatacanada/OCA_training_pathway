@@ -49,7 +49,7 @@ The OCA Schema Bundle is a machine-actionable version of your schema and include
 
 # 6. Create a Human-readable version of your schema
 
-To create a human-readable version of your schema, go to [Semantic Engine](https://www.semanticengine.org/), drag and drop your new machine-actionable schema, and select Generate Readme.
+To create a human-readable version of your schema, go to [Semantic Engine](https://www.semanticengine.org/), upload your new machine-actionable schema, and select Generate Readme.
 
 # 7. Learn about SAID identifiers
 
@@ -75,7 +75,7 @@ After you have created a data schema, you can put it to use. Not only will it ac
 
 For example, your lab may want everyone to record their -80 freezer samples using the same schema. The lab collaborates to write a schema that captures all the information they need for their samples. It includes things like a drop-down list of freezers in the lab, box labels, freezer positions, associated project names, sample collector etc.  The schema is put on a common lab folder. Any new student to the lab can create a 'data entry Excel' from this schema which includes helpful descriptions from the schema, appropriate drop-down lists etc. All students in the lab can combine their data together to create a master sample list easily because by using the 'data entry Excel' they have all created schema conformant data that is easily merged.
 
-After you have created your schema bundle, you can go to [Semantic Engine](https://www.semanticengine.org/), drag and drop your new machine-actionable schema, and select Create a Data Entry Excel.
+After you have created your schema bundle, you can go to [Semantic Engine](https://www.semanticengine.org/), upload your new machine-actionable schema, and select Create a Data Entry Excel.
 
 # 10. Add drop-down menu choices
 
