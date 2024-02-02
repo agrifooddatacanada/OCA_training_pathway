@@ -61,7 +61,7 @@ Read our advice and instructions on multiple ways to [save, deposit, and/or publ
 
 You can save your schema together with your data wherever you store your data, be it in a folder on your laptop, a shared drive, cloud storage or in a repository. Alternatively, you can put your schema separately in a repository, especially if it is suitable for others to use.
 
-Be sure to save both the machine-actionable OCA schema bundle and also remember to create a human-readable README text file. 
+Be sure to save both the machine-actionable OCA schema bundle and a human-readable README text file together. You can always come back to the [Semantic Engine](https://www.semanticengine.org/) to generate a new README text file if you have just the machine-actionable schema file.
 
 <!-- # 8. Reference your schema in your documentation
 
