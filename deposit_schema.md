@@ -9,7 +9,7 @@ You will want to ensure your schema is available for reference and/or reuse. Her
 
 The first, and easiest way to save your schema for future reference is together with the dataset that it is associated with it. This is most useful for schemas that are very specific to your dataset and where you haven't created the schema with an eye towards reuse.
 
-We suggest that you save your schema both as the Excel template and the OCA bundle. The OCA bundle is a machine-readable version and is a published standard. This should be the most future-proof version of your schema. The Excel Template is a human readable version and also useful to save with your data. As we develop the Semantic Engine we will depreciate the Excel Template and use other tools to generate OCA schemas.
+We suggest that you save your schema both as the readme plain text file and the OCA schema bundle in JSON format. The OCA schema bundle is a machine-readable version and is a published standard. The readme text file is a human-readable version and also useful to save with your data. This should be the most future-proof version of your schema.
 
 ## Deposit your schema separately in a repository
 
@@ -24,7 +24,7 @@ Obtaining a DOI via Borealis:
 4. Click on ‘Add Data’ button and select ‘New Dataset’ from the drop-down menu.
 5. In the Dataset Template  section, make sure that ‘ADC Schema’ is selected from the drop-down menu.
 6. In the Citation Metadata section, complete the required information (e.g., title, author, contact, description, keywords, depositor name).
-9. Under the Files section, drag and drop your OCA Schema Bundle in (\*.json) format and the schema template file in plain text (\*.txt) format. 
+9. Under the Files section, drag and drop your OCA Schema Bundle in (\*.json) format and the schema readme file in plain text (\*.txt) format. 
 10. Click Save Dataset. 
     * After saving the dataset, a DOI is created and reserved for the record.
 11. Edit the draft record (e.g., descriptive information (metadata) or files) as required.
