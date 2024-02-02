@@ -14,15 +14,15 @@ Common PIDs in research include DOIs (digital object identifiers) and ORCiDs ([P
 
 # Self-Addressing Identifiers 
 
-Another type of PID are [Self-Addressing Identifiers](https://github.com/WebOfTrust/ietf-said) (SAIDs) which take advantage of hashing to create an identifier that is calculated directly from the content of the thing being identified. You can think of hashes as unique fingerprints derived directly from any type of digital object. Most familiar PIDs (such as DOIs) are assigned by a central authority. In contrast, SAIDs are not assigned by anyone, they are calculated directly from the content.
+Another type of PID are [Self-Addressing Identifiers](https://github.com/WebOfTrust/ietf-said) (SAIDs) which take advantage of hashing to create an identifier (aka digest) that is calculated directly from the content of the thing being identified. You can think of digests as unique fingerprints derived directly from any type of digital object. Most familiar PIDs (such as DOIs) are assigned by a central authority. In contrast, SAIDs are not assigned by anyone, they are calculated directly from the content.
 
-When you create a hash value, you take a digital object, plug it into a one-way formula, and generate another value – the hash value. A hash function always gives the same hash value for the same content and if you change the digital object in any small way, even a single character or space, the resulting hash value will be completely different.  
+When you create a digest value, you take a digital object, plug it into a one-way formula (the hashing function), and generate another value – the digest. A hash function always gives the same digest for the same content and if you change the digital object in any small way, even a single character or space, the resulting digest will be completely different.  
 
-One important characteristic about hash functions is that they do not work in reverse. If you are given a hash value, you cannot determine what the original content was. This means that if your digital object contains sensitive information, you cannot recreate that data from the hash value. 
+One important characteristic about hash functions is that they do not work in reverse. If you are given a digest, you cannot determine what the original content was. This means that if your digital object contains sensitive information, you cannot recreate that data from the digest. 
 
-For the OCA schema, all parts of the schema and the schema bundle itself are given SAIDs. Note that at this point of development, the .zip bundle is given a random filename and not a SIAD value. Each file of the schema bundle is hashed and then the hash value (the SAID) becomes the filename. Each hash starts with an 'E'. You can discover the hash value by looking at each JSON filename of the OCA schema, by looking at the meta.json file inside a schema bundle, or you can calculate it directly using the SAID hashing function. 
+For the OCA schema, all parts of the schema and the schema bundle itself are given SAIDs. Each component of the schema bundle is hashed and each digest starts with an 'E'. You can discover the digest by looking at each JSON filename of the OCA schema, by looking at the JSON schema bundle, or you can calculate it directly using the SAID hashing function. 
 
-![OCA schema JSON bundle showing hashes for overlays and bundle](/pictures/chicken_OCA_meta_hashes_highlighted.PNG)
+![OCA schema JSON bundle showing hashes for overlays and bundle](/pictures/schemas_json_SAIDs.PNG)
 
 # Benefits of using SAIDs for Research Objects 
 
