@@ -20,7 +20,7 @@ You can deposit a schema separately in the University of Guelph's Borealis repos
 Obtaining a DOI via Borealis:
 1. [Log in to Borealis](https://borealisdata.ca/loginpage.xhtml), A Canadian Dataverse Repository using your U of G username and password.
 2. Request permission to deposit in the U of G Research Data Repositories at [lib.research@uoguelph.ca](mailto:lib.research@uoguelph.ca).
-3. Once access has been granted, navigate to the Agri-environmental Research Data Repository - [Agri-food Data Canada – Schemas  collection](https://borealisdata.ca/dataverse/adcSchema/).
+3. Once access has been granted, navigate to the Agri-environmental Research Data Repository - [Agri-food Data Canada – Schemas  collection](https://borealisdata.ca/dataverse/ADC).
 4. Click on ‘Add Data’ button and select ‘New Dataset’ from the drop-down menu.
 5. In the Dataset Template  section, make sure that ‘ADC Schema’ is selected from the drop-down menu.
 6. In the Citation Metadata section, complete the required information (e.g., title, author, contact, description, keywords, depositor name).
