@@ -1,5 +1,7 @@
 # Convert from Excel to OCA
 
+Note (2024.10.30) use this parser link: [https://tool.oca.argo.colossi.network/](https://tool.oca.argo.colossi.network/).
+
 The Excel template with the schema information can be parsed into a machine actionable, standard representation of the schema called [Overlays Capture Architecture (OCA)](https://oca.colossi.network/).
 
 Agri-food Data Canada hosts an [XLS to OCA Converter](http://parser.semanticengine.org) which converts the Excel Template to the OCA Bundle. Click on the arrow to expand the parsing function, then click "Try it out" and then upload your Excel Template for parsing.
