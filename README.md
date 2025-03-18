@@ -1,3 +1,5 @@
+# No longer supported for generating schemas.
+
 # A pathway for creating data schemas
 
 **Create data schemas at the [Semantic Engine](https://semanticengine.org) using our friendly user interface which walks through all the steps here**
